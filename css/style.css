@@ -1,10 +1,45 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.contenedorQR{
-    display: flex;
-    justify-content: center;
-    padding: 40px 0;
+.bodyBackground {
+  background-color: #d5d5d5;
+  font-family: "Noto Sans", sans-serif;
+}
+.navbarBackground {
+  background-color: #606060;
+}
+.contenedor {
+  max-width: 90%;
+  width: 400px;
+  margin: 80px auto;
+}
+.contenedorQR {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+.formulario input[type="text"] {
+  padding: 20px;
+  border: none;
+  background: #fff;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.generateButtom {
+  display: block;
+  background-color: #231735;
+  color: white;
+  height: 5vh;
+  width: 100%;
+  border-radius: 5px;
+}
+.generateButtom:hover {
+  transition: 0.5s;
+  background-color: #562fa0;
 }
